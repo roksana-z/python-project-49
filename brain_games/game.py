@@ -1,7 +1,9 @@
 import prompt
 from brain_games.scripts.brain_games import greet
 
-def play_game(get_question, show_game_description, show_question, get_correct_answer):
+
+def play_game(get_question, show_game_description,
+ show_question, get_correct_answer):
     greet()
     user_name = prompt.string('May I have your name? ')
     print('Hello,' + user_name)

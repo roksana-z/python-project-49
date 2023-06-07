@@ -26,4 +26,4 @@ def get_question():
     return (progression, index_of_hidden_number)
 
 def show_game_description():
-    print('Find the greatest common divisor of given numbers.')
+    print('What number is missing in the progression?')
