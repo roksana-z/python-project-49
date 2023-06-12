@@ -13,7 +13,7 @@ def play_game(
     question = get_question()
     counter = 0
     while counter < 3:
-        print('Question:' + str(show_question(question)))
+        print('Question: ' + str(show_question(question)))
         user_answer = prompt.string('Your answer:')
         correct_answer = str(get_correct_answer(question))
         if user_answer == correct_answer:
