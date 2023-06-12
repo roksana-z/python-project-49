@@ -16,7 +16,7 @@ def show_question(*args):
 def generate_arithmetic_progression(start_point, step, progression_length):
     progression = []
     for i in range(progression_length):
-        progression.append(start_point + i*step)
+        progression.append(start_point + i * step)
     return progression
 
 
