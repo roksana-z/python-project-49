@@ -8,7 +8,7 @@ def play_game(
         show_question, get_correct_answer):
     greet()
     user_name = prompt.string('May I have your name? ')
-    print('Hello,' + user_name)
+    print('Hello, ' + user_name)
     show_game_description()
     question = get_question()
     counter = 0
