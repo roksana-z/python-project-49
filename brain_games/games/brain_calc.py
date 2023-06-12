@@ -2,7 +2,7 @@ import random
 
 
 def get_random_operator():
-    operators = ['-', '+', '/']
+    operators = ['-', '+', '*']
     return operators[random.randint(0, 2)]
 
 
@@ -13,8 +13,8 @@ def get_correct_answer(*args):
             return a - b
         case '+':
             return a + b
-        case '/':
-            return a / b
+        case '*':
+            return a * b
         case _:
             return
 
